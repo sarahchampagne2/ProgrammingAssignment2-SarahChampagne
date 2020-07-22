@@ -1,6 +1,8 @@
 ## These functions compute a matrix which can cache its inverse and then use
 ## the second function to compute the inverse.
 
+## This function will create the special matrix which will use the second function to compute the inverse.
+
 makeCacheMatrix <- function(x = matrix()) {
 m<-NULL
 set<-function(y)
